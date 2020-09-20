@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/GreatDeveloper66/registerLoginSystem/issues"
   },
-  "homepage": "https://github.com/GreatDeveloper66/registerLoginSystem#readme"
+  "homepage": "https://github.com/GreatDeveloper66/registerLoginSystem#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
