@@ -1,0 +1,25 @@
+{
+  "name": "registerloginsystem",
+  "version": "1.0.0",
+  "description": "MERN register and login system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreatDeveloper66/registerLoginSystem.git"
+  },
+  "keywords": [
+    "login",
+    "register",
+    "API"
+  ],
+  "author": "Adam Shaffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreatDeveloper66/registerLoginSystem/issues"
+  },
+  "homepage": "https://github.com/GreatDeveloper66/registerLoginSystem#readme"
+}
