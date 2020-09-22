@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Login from './Components/Login'
 import Register from './Components/Register'
-import Protected from './Components/Protected'
+import {ProtectedRoute} from './Components/ProtectedRoute'
+import {ProtectedComponent} from './Components/ProtectedComponent'
+
 
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={ Login }/>
         <Route exact path='/register' component={ Register }/>
-        <Router exact path='/protected' component= { Protected }/>
+        <ProtectedRoute exact path = '/protected' component={ProtectedComponent}/>
       </Switch>
     </Router>
   );
